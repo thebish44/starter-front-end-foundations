@@ -13,6 +13,16 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+    <form action="process-form.js" method="post">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" required/>
+      <label for="email">Email:</label>
+      <input id="email" type="text" name="email" required/>
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send!</button>
+    </form>
+    </main>
   </body>
 </html>
